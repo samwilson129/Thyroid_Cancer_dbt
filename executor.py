@@ -29,12 +29,12 @@ con_init = mysql.connector.connect(
     user="root",
     password="root"
 )
-sql_file_path1="sql/diagnosis_insert.sql"
-sql_file_path2="sql/medical_history_insert.sql"
-sql_file_path3="sql/nodule_details_insert.sql"
-sql_file_path4="sql/patient_insert.sql"
-sql_file_path5="sql/thyroid_test_results_insert.sql"
-sql_file_path6="sql/rel.sql"
+sql_file_path1="database/diagnosis_insert.sql"
+sql_file_path2="database/medical_history_insert.sql"
+sql_file_path3="database/nodule_details_insert.sql"
+sql_file_path4="database/patient_insert.sql"
+sql_file_path5="database/thyroid_test_results_insert.sql"
+sql_file_path6="database/rel.sql"
 
 cursor = con_init.cursor()
 init()
